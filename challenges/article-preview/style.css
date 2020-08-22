@@ -14,7 +14,7 @@
 body {
   font-size: 13px;
   font-family: 'Manrope', sans-serif;
-  background-color: var(--grayish-blue);
+  background-color: var(--light-grayish-blue);
 }
 
 img {
@@ -29,7 +29,7 @@ img {
 
 .article {
   border-radius: 20px;
-  background-color: var(--light-grayish-blue);
+  background-color: white;
 }
 
 .article__header--image {
@@ -120,8 +120,8 @@ img {
 }
 
 .article__button--share {
-  background-color: var(--grayish-blue);
-  color: var(--desaturated-dark-blue);
+  background-color: var(--light-grayish-blue);
+  color: var();
   width: 2.5rem;
   height: 2.5rem;
   border: none;

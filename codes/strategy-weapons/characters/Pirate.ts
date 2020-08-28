@@ -1,5 +1,5 @@
-import { CharacterBehavior } from '../behaviors/CharacterBehavior';
-import { Shotgun } from '../weapons/Shotgun';
+import { CharacterBehavior } from '../behaviors';
+import { Shotgun } from '../weapons';
 
 export class Pirate implements CharacterBehavior {
   name: string;

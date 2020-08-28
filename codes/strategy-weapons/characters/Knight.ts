@@ -1,5 +1,5 @@
-import { CharacterBehavior } from '../behaviors/CharacterBehavior';
-import { Sword } from '../weapons/Sword';
+import { CharacterBehavior } from '../behaviors';
+import { Sword } from '../weapons';
 
 export class Knight implements CharacterBehavior {
   name: string;

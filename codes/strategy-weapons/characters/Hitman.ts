@@ -1,5 +1,5 @@
-import { CharacterBehavior } from '../behaviors/CharacterBehavior';
-import { AK47 } from '../weapons/AK47';
+import { CharacterBehavior } from '../behaviors';
+import { AK47 } from '../weapons';
 
 export class Hitman implements CharacterBehavior {
   name: string;

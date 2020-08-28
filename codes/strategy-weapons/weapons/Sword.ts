@@ -1,4 +1,4 @@
-import { WeaponBehavior } from '../behaviors/WeaponBehavior';
+import { WeaponBehavior } from '../behaviors';
 
 export class Sword implements WeaponBehavior {
   equiped = false;

@@ -1,5 +1,5 @@
 import { Hitman, Knight, Pirate } from './characters';
-import { CharacterBehavior } from './behaviors/CharacterBehavior';
+import { CharacterBehavior } from './behaviors';
 
 function realizeActions(...characters: CharacterBehavior[]) {
   characters.forEach(character => {

@@ -1,4 +1,4 @@
-import { WeaponBehavior } from './WeaponBehavior';
+import { WeaponBehavior } from '.';
 
 export interface CharacterBehavior {
   name: string;

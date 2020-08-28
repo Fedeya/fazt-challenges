@@ -1,21 +1,24 @@
 import { Hitman } from './characters/Hitman';
 import { Pirate } from './characters/Pirate';
+import { Knight } from './characters/Knight';
+import { CharacterBehavior } from './behaviors/CharacterBehavior';
+
+function realizeActions(character: CharacterBehavior) {
+  character.weapon.attack();
+  character.weapon.attack();
+  character.weapon.equip();
+  character.weapon.attack();
+  character.weapon.attack();
+
+  console.log(character);
+}
 
 const fede = new Hitman('Fede');
 
-fede.weapon.equip();
-fede.weapon.attack();
-fede.weapon.attack();
-fede.weapon.equip();
-fede.weapon.unequip();
-fede.weapon.attack();
-
-console.log(fede);
-
 const reiva = new Pirate('Reiva');
 
-reiva.weapon.attack();
-reiva.weapon.equip();
-reiva.weapon.attack();
-reiva.weapon.attack();
-console.log(reiva);
+const nova = new Knight('Nova');
+
+realizeActions(fede);
+realizeActions(reiva);
+realizeActions(nova);

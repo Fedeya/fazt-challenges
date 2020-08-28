@@ -22,11 +22,12 @@ export class Shotgun implements WeaponBehavior {
       return;
     }
 
-    if (this.ammo <= 0) {
+    if (this.ammo <= 0 || this.ammo < this.bulletsPerShoot) {
       console.log(`the shotgun has no more bullets`);
       return;
     }
 
     this.ammo -= this.bulletsPerShoot;
+    console.log('shotgun shoot success');
   }
 }

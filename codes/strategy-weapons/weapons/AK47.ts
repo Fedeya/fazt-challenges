@@ -7,7 +7,7 @@ export class AK47 implements WeaponBehavior {
 
   equip() {
     this.equiped = true;
-    console.log('ak47 Equiped');
+    console.log('ak47 equiped');
   }
 
   unequip() {
@@ -27,5 +27,6 @@ export class AK47 implements WeaponBehavior {
     }
 
     this.ammo -= 1;
+    console.log('ak47 shoot success');
   }
 }

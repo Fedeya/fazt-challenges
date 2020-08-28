@@ -1,6 +1,4 @@
-import { Hitman } from './characters/Hitman';
-import { Pirate } from './characters/Pirate';
-import { Knight } from './characters/Knight';
+import { Hitman, Knight, Pirate } from './characters';
 import { CharacterBehavior } from './behaviors/CharacterBehavior';
 
 function realizeActions(...characters: CharacterBehavior[]) {

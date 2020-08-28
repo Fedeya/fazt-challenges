@@ -1,9 +1,9 @@
 import { CharacterBehavior } from '../behaviors/CharacterBehavior';
-import { ShotGun } from '../weapons/ShotGun';
+import { Shotgun } from '../weapons/Shotgun';
 
 export class Pirate implements CharacterBehavior {
   name: string;
-  weapon = new ShotGun();
+  weapon = new Shotgun();
 
   constructor(name: string) {
     this.name = name;
